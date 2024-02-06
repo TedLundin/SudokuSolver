@@ -20,8 +20,7 @@ int main() {
     Backtrack* backtrack = new Backtrack(hints);
     Constraint* constraint = new Constraint(hints);
     Genetic* genetic = new Genetic(hints);
-
-    /*
+    
     std::cout << "Initial State:" << std::endl;
     backtrack->getInitial().printBoard();
     std::cout << "\n\nSolution State:" << std::endl;
@@ -31,7 +30,6 @@ int main() {
     constraint->getInitial().printBoard();
     std::cout << "\n\nSolution State:" << std::endl;
     constraint->getSolution().printBoard();
-    */
 
     std::cout << "Initial State:" << std::endl;
     genetic->getInitial().printBoard();
